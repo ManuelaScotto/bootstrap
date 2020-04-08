@@ -22,27 +22,35 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
 }
-
 h4 {
   margin-bottom: 20px;
   font-size: 2.4em;
   font-weight: 700;
 }
 
-.padding_top_bottom80 {
-  padding: 80px 0;
+.wrapper_100 {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper_80 {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .margin_bottom40 {
   margin-bottom: 40px;
 }
 
-.bg_green {
-  background-color: #19bd9b;
+.padding_top_bottom80 {
+  padding: 80px 0;
 }
 
 .color_white {
   color: white;
+}
+
+.bg_green {
+  background-color: #19bd9b;
 }
 
 .btn_green {
@@ -53,15 +61,6 @@ h4 {
 
 .liststyle_none {
   list-style: none;
-}
-
-.wrapper_100 {
-  width: 100%;
-  margin: 0 auto;
-}
-.wrapper_80 {
-  width: 80%;
-  margin: 0 auto;
 }
 
 .line {
@@ -119,6 +118,7 @@ a.start:hover {
   text-decoration: none;
   color: #19bd9b;
 }
+
 /* hamburger */
 a.menu {
   font-weight: 600;
@@ -142,6 +142,7 @@ a.menu:hover ,
   width: 100%;
   margin: 0 auto;
 }
+
 .avatar {
   width: 250px;
 }
@@ -150,6 +151,7 @@ a.menu:hover ,
   margin-top: 40px;
   font-size: 2em;
 }
+
 /* portfolio */
 .box_portfolio {
   position: relative;
@@ -162,6 +164,7 @@ a.menu:hover ,
   width: 100%;
   border-radius: 10px;
 }
+
 .hover_box {
   visibility: hidden;
   position: absolute;
@@ -178,6 +181,7 @@ a.menu:hover ,
 .box_portfolio:hover .hover_box{
   visibility: visible;
 }
+
 /* about */
 .p_up {
   font-size: 2em;
@@ -201,8 +205,8 @@ a.menu:hover ,
 .form_text {
   width: 78%;
   border: 0;
-  box-shadow: none;
   border-radius: 0;
+  box-shadow: none;
   -webkit-box-shadow: 0;
   font-size: 2.5em;
   color: red;
@@ -211,6 +215,7 @@ a.menu:hover ,
 .form_text::placeholder {
   color: #2c3d51;
 }
+
 input,
 textarea {
   display: block;
@@ -219,6 +224,7 @@ textarea {
   border: 0;
   font-size: 1.8em;
 }
+
 input.form_text,
 textarea.form_text {
   height: 80px;
@@ -240,15 +246,18 @@ textarea.form_text {
   text-align: left;
   font-size: 2em;
 }
+
 /* footer_top */
 .footer_top {
   width: 100%;
   background-color: #2c3d51;
 }
+
 .p_2 {
   text-align: center;
   font-size: 2em;
 }
+
 .span_green {
   color: #19bd9b;
 }
@@ -257,13 +266,13 @@ textarea.form_text {
   display: inline-block;
   width: 50px;
   height: 50px;
-  line-height: 50px;
-  text-align: center;
   margin-left: 5px;
   margin-right: 5px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
   border: 2px solid white;
   border-radius: 50%;
-  font-size: 20px;
 }
 
 .footer_top a {
